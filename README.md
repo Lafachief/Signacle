@@ -1,2 +1,2 @@
-# Signacle
-EOSIO is a next-generation, semantic driven Copy Trading Ecosystem
+# SNCL
+Signacle  is a next-generation, semantic driven Copy Trading Ecosystem
