@@ -1,1 +1,189 @@
-<mxfile host="app.diagrams.net" modified="2021-02-21T01:04:25.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" version="14.4.2" etag="jNme71PBYXPrnAis8GNS" type="github"><diagram id="b5p1b9LytoHAdx3Lagxu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-21T01:29:20.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="fkPd_DxDVq_ZAtj7_Jgc" version="14.4.2" type="github">
+  <diagram id="b5p1b9LytoHAdx3Lagxu" name="Page-1">
+    <mxGraphModel dx="5815" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="81XtVPKqAzKhaWrAF5O_-1" target="81XtVPKqAzKhaWrAF5O_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-1" value="DEUS&lt;br&gt;+&lt;br&gt;any dApp&lt;br&gt;interested in Live Price Feeds" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="145" width="230" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-5" value="&lt;font&gt;&lt;span style=&quot;font-size: 36px&quot;&gt;Pythia (PYTH)&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;The on-demand Oracle Network&lt;br&gt;&lt;/font&gt;Quick Overview&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="50" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-14" value="requestPriceVerification()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.614;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="81XtVPKqAzKhaWrAF5O_-9" target="81XtVPKqAzKhaWrAF5O_-11">
+          <mxGeometry x="-0.1027" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-35" y="160" />
+              <mxPoint x="629" y="160" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-17" value="trade()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="81XtVPKqAzKhaWrAF5O_-9" target="81XtVPKqAzKhaWrAF5O_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-9" value="User&amp;nbsp;&lt;br&gt;executing a trade&lt;br&gt;through UI" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="250" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-12" value="verifyPrice()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="81XtVPKqAzKhaWrAF5O_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="279.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-11" value="Pythia&lt;br&gt;Node" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="230" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-16" value="trade()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="81XtVPKqAzKhaWrAF5O_-13" target="81XtVPKqAzKhaWrAF5O_-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="360" />
+              <mxPoint x="-35" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-13" value="DEUS&lt;br&gt;Smart Contract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-19" value="Node-Stake&lt;br&gt;Insures&amp;nbsp;&lt;br&gt;Price" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="660" y="230" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-21" value="" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="100" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-29" value="Lock Stake until&amp;nbsp; verifcation&lt;br&gt;was validated" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="81XtVPKqAzKhaWrAF5O_-22" target="81XtVPKqAzKhaWrAF5O_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-22" value="Pythia&lt;br&gt;Node" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="100" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-23" value="Pythia&lt;br&gt;Node" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="110" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-25" value="Pythia&lt;br&gt;Node" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="120" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-26" value="Pythia&lt;br&gt;Node" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="130" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-28" value="release Stake again after no dispute() &lt;br&gt;was called by an Apollo node" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="81XtVPKqAzKhaWrAF5O_-27" target="81XtVPKqAzKhaWrAF5O_-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="380" />
+              <mxPoint x="700" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-27" value="Apollo&lt;br&gt;Nodes" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="140" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-30" value="Pythia Nodes are the Oracles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-31" value="Apollo Nodes are the Validators" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="805" y="60" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-32" value="Even when the price is not validated by the Apollo Nodes trades are already executed." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="400" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-34" value="Pythia&lt;br&gt;Node" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="740" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-35" value="Pythia&lt;br&gt;Node" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="900" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-36" value="Apollo&lt;br&gt;Node" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="600" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-39" value="Apollo&lt;br&gt;Node" style="shape=card;whiteSpace=wrap;html=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="740" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-41" value="Pythia/&lt;br&gt;Apollo&lt;br&gt;&lt;br&gt;Node" style="shape=card;whiteSpace=wrap;html=1;direction=west;flipH=0;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="900" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-55" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="81XtVPKqAzKhaWrAF5O_-34" target="81XtVPKqAzKhaWrAF5O_-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="890" as="sourcePoint" />
+            <mxPoint x="690" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-56" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="941" as="sourcePoint" />
+            <mxPoint x="810" y="941" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-57" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="920" as="sourcePoint" />
+            <mxPoint x="1010" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-58" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="890" as="sourcePoint" />
+            <mxPoint x="960" y="870" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-59" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="890" as="sourcePoint" />
+            <mxPoint x="950" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-60" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="805" y="910" as="sourcePoint" />
+            <mxPoint x="955" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="875" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-63" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="890" as="sourcePoint" />
+            <mxPoint x="820" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-64" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="660" as="sourcePoint" />
+            <mxPoint x="960" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-65" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="900" as="sourcePoint" />
+            <mxPoint x="830" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-67" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="900" as="sourcePoint" />
+            <mxPoint x="830" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-68" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="730" as="sourcePoint" />
+            <mxPoint x="790" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-69" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="730" as="sourcePoint" />
+            <mxPoint x="790" y="640" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81XtVPKqAzKhaWrAF5O_-70" value="Nodes communicate with each other randomly and acyclic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="540" width="230" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
